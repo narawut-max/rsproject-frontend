@@ -1,0 +1,107 @@
+.bot-text ul{ margin: 0; padding: 0; list-style: none; display: inline-block;}
+.bot-text ul li a{ color: #555;}
+.bot-text ul li a:hover{ color: #f57a16;}
+
+.bot-text  ul li {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #BFBFBF;
+}
+.bot-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bot-text ul li:last-child {
+    border-right: 0;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.text-red {
+    color: #D40101;
+}
+.text-blue {
+    color: #0859a5;
+}
+
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+}
+
+.position {
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    background: #f57a16;
+    
+}
+.register-flag ul a {float: left;padding: 0 10px;border-right: 1px solid #bfbfbf;}
+.register-flag ul a:last-child{ border-right: 0;}
+
+/* สมัคกสมาชิก */
+.form-control{padding-left: 30px;border-radius: 10px;}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;}
+.control-register{padding-left: 10px;}
+.margin-top{ margin-top: 20px;} .margin-top-4{ margin-top: 40px;} .margin-bottom{ margin-bottom: 20px;} .margin-bottom-1{ margin-bottom: 10px;} 
+.margin-bottom-4{ margin-bottom: 40px;}
+.margin-bottom-6{ margin-bottom: 60px;}
+.modal-header{ background: #f57a16; color: rgb(255, 255, 255); text-align: center; }
+button.enter-register{ border-radius: 10px; padding: 10px; background: #f57a16; border:1px solid #f57a16; color: #FFFFFF;  
+     width: auto; transition: all 0.3s ease-in; -webkit-transition:all 0.3s ease-in; -moz-transition:all 0.3s ease-in; 
+    -ms-transition:all 0.3s ease-in;}
+button.enter-register:hover{ background: #eee; color: #f57a16; border:1px solid #eee;}
+/* เข้าสู่ระบบ */
+.form-login {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;}
+.form-login{padding-left: 30px; border-radius: 10px;}   
+.jobbkk {padding-left: 10px; margin-bottom: 20px; }
+ul.checkbox-forget li {
+        font-size: 1.4rem;
+        font-size: 14px;
+        padding: 15px;
+        display: inline-block;
+    }  
+.enter-name {
+        font-size: 1.4rem;
+        font-size: 14px;
+        text-align: center;
+    }
+    .has-feedback .form-control {
+        padding-right: 42.5px;
+    }

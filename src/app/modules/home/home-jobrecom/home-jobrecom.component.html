@@ -1,0 +1,65 @@
+<div class="container p-3 " style="min-height: 591px;">
+    <h5 class="text-center bgHotCareer" style="color: rgb(0, 0, 0); ">Job Post Recommedator From Job Seeker's Currieulum
+        Vitae</h5>
+    <div class="box-card bgHot mb-4 ">
+        <form action="">
+            <div class="form-group row content">
+            <img src="https://scontent.fkkc4-2.fna.fbcdn.net/v/t1.15752-9/265034394_280980053887932_2525959383891627386_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeFweAOXGgpKIrc7oQS68wBPqCtX-Y5bISyoK1f5jlshLHqvNHci-thbGsJQYwnVjtmy2ASaNp_W-Js2r_XvrrgF&_nc_ohc=z0xV-x6fs1gAX8LFahg&_nc_oc=AQl-TYiT3ULXYUoz2UV2CaMvo_Jmv2owWIxsFN_gHoQ34Lh_JXuDv0Rdc4mLbK5yKddRb_DpRLZ3mSKnkMeGRhp0&_nc_ht=scontent.fkkc4-2.fna&oh=03_AVKsDh9GKbm349Mbg75NJ4ZxtvPyR_doPb0TTHeYNYnZpQ&oe=61E38C70">  
+        </div><br>
+            <div class="border-bottom"></div><br>
+            <div class="form-group row content">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2">
+                    <label>Upload Your CV File </label>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1"
+                            (change)="onUplodeFile($event)">
+                    </div>
+                </div>
+            </div><br>
+            <div class="form-group row content">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="d-flex justify-content-center">
+                        <div *ngIf="this.LoadingInShow" class="spinner-border text-danger" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h6 style="color: green;" for="exampleFormControlTextarea1">: Input CV Content here :</h6>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                            rows="5">{{dataFormocr}}</textarea>
+                    </div>
+                </div>
+            </div><br>
+            <div class="form-group row content">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <button type="reset" class="btn btn-danger" (click)="refresh()">CLEAR</button>&nbsp;
+                    <!-- <button type="button" class="btn btn-success">SAVE</button>&nbsp; -->
+                    <button type="button" class="btn btn-success" (click)="recomment(text)">RECOMMENDATION</button>
+                </div>
+            </div>
+            <br>
+            <div class="form-group row content">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <h6 style="color: green;">: Job Recommendation Top_5 :</h6>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="form-group row content">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 bgHots" style="padding: 1.2rem;">
+                    <ng-container *ngFor="let item of dataList; let i = index">
+                        <B>({{i+1}})</B>&nbsp;{{item.text}}
+                        <hr>
+
+                    </ng-container>
+                </div>
+            </div><br>
+        </form>
+    </div>
+</div>

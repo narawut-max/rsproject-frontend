@@ -1,0 +1,238 @@
+.col-md-1,
+ .col-md-10, 
+ .col-md-11, 
+ .col-md-12, 
+ .col-md-2, 
+ .col-md-3, 
+ .col-md-4, 
+ .col-md-5, 
+ .col-md-6, 
+ .col-md-7, 
+ .col-md-8, 
+ .col-md-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #555;
+    white-space: initial;
+}
+a{display: block;}
+h1, h2, h3, h4, h5, h6{ white-space: initial;}
+
+/* .jobbkk-list-company a.list-company-read h6{ color: #ffffff;} */
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+.search-job-all ul li {
+    padding: 10px 15px;
+    font-size: 2rem;
+    font-size: 20px;
+}
+.search-job-all {
+    /* background: #f6f3f2; */
+    color: #f57a16;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #BFBFBF;
+    border-bottom: 0;
+    overflow: hidden;
+}
+.row-applying {
+    padding-left: 15px;
+}
+
+.search-job-all ul li.search-job-number{
+     font-size: 1.4rem; 
+     font-size: 14px; 
+     margin-top: 5px; 
+     text-align: right;
+}
+.search-job-all ul{
+     margin: 0; 
+     padding: 0; 
+     list-style: none;
+}
+@media (max-width:576px){
+	.search-job-all ul li.search-job-number{ margin-top: 2px;}
+}
+.col-md-9 {
+    width: 75%;
+}
+.company-border{
+	border: 1px solid #BFBFBF;
+	border-bottom: 1;
+	border-top: 1;
+	background: #FFF;
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+	-ms-transition:all 0.3s ease-in;
+	}
+
+.company-border:hover{ background: #f6f3f2;}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* text */
+a.hover-work{color: #555;}
+div.box3{ height: 50px;}
+div.box4{ height: 60px;}
+
+.recomment{ background: #f47920; padding: 0 5px; color: #ffffff;}
+.work-com{ margin-right: 5px;}
+.work-com, .recomment{float: left;}
+.overflow-hidden{overflow: hidden;}
+.display-inline{ display: inline-block;}
+.jobbkk-mobile{ display: none;}
+.float-l{ float: left;} .float-r{ float: right;}
+
+.margin-top{ margin-top: 20px;} 
+.margin-top-4{ margin-top: 40px;} 
+.margin-bottom{margin-bottom: 20px;} 
+.margin-bottom-1{margin-bottom: 10px;}
+.margin-bottom-4{ margin-bottom: 40px;}
+.margin-bottom-6{ margin-bottom: 60px;} 
+
+.jobbkk-applying .applying {
+    color: #f57a16;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+/* imge */
+a.list-company{ margin-bottom: 20px;}
+.handicapped{ margin-left: 5px;}
+.handicapped img{ max-width: 15px;}
+.time-company{ text-align: right;}
+.jobbkk-image-company img{ border: 1px solid #BFBFBF; background: #FFFFFF; height: 60px; object-fit: scale-down;}
+.jobbkk-image-company.image-company img{height: 100px;object-fit: scale-down;padding: 5px;}
+
+img {
+    vertical-align: middle;
+}
+element.style {
+    width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.time-company{ text-align: right;}
+
+/* btton */
+ul.social-company {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+ul.social-company li{ 
+    display: inline;
+}
+ul.social-company li:last-child{
+     padding-right: 0;
+}
+ul.social-company li a.job-social{ 
+    border-radius: 10px; 
+    border: 1px solid #bfbfbf; 
+    background: #FFFFFF; 
+    padding: 3px 10px; 
+    color: #555; 
+    text-decoration: none;
+	text-align: center; 
+    display: inline-block; }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul.social-company li a.jobbkk-applying-work {
+    background: #f57a16;
+    color: #FFFFFF;
+    border: 1px solid #f57a16;
+}
+ul.social-company li a.job-social:hover, 
+ul.social-company li button.jobbkk-applying-work:hover{ 
+    background: #ebebeb; 
+    color: #f57a16; 
+	border: 1px solid #ebebeb;
+}
+ul.social-company li a
+.jobbkk-no-interview, ul
+.social-company li button
+.jobbkk-no-interview:hover{ 
+    color: #bfbfbf;
+}
+ul.social-company li a.active{ 
+    color: #fff; 
+    background: #2FA71D; 
+    border: 1px solid #2FA71D;
+}
+.bgPageSearchWork {
+    background: rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.headPageWork {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.headPageWork ul li a {
+    display: block;
+    padding: 5px;
+    color: rgb(98, 96, 96);
+    text-decoration: none;
+}
+.headPageWork ul li span {
+    font-size: 14px;
+}
+.headPageWork span {
+    color: #f57a16;
+    font-size: 20px;
+}
+b, strong {
+    font-weight: 700;
+}
+.headPageWork ul li span {
+    font-size: 14px;
+}
+.headPageWork h2 {
+    font-size: 18px;
+    color: rgb(70, 69, 69);
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.headPageWork ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

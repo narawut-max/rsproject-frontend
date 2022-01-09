@@ -1,0 +1,28 @@
+/*
+bestcompany
+*/
+.bestCompany{ display: flex; align-items: center; justify-content: center; text-decoration: none;}
+.bestCompany li a:hover{ transform: scale(1.03);}
+.hotCareerCut{ height: 60px;}
+
+.jobsGrid{ display: grid;list-style: none;grid-gap: 5px;}
+.jobsGrid li a{ display: flex; align-items: center;flex-direction: column; text-decoration: none;}
+.jobsGrid li a:hover{ transform: scale(1.03);}
+.jobsStyle {
+    width: 150px;
+    height: 150px;
+    border: 1;
+    border-radius: 7px;
+}
+
+.readMore a {
+    display: inline-block;
+    text-decoration: none;
+    background: #f57a16;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: var(--font14);
+}
+
+.bgHotCareer{ background: #ebebeb; padding: 15px;}

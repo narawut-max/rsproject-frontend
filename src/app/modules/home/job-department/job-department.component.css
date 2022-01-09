@@ -1,0 +1,37 @@
+.jobsAroundThailandGrid{ display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; margin: 0; padding: 0; grid-gap: 15px;}
+.jobsAroundThailandGrid li a{ display: flex; align-items: center; justify-content: center; flex-direction: column; text-decoration: none;}
+.jobsAroundThailandGrid li a:hover{ transform: scale(1.03);}
+
+.nameRegion{ background: #ebebeb; border: 1px solid #bfbfbf; padding: 10px; border-radius: 0 0 10px 10px; display: flex; align-items: center; justify-content: space-between; width: 100%; text-align: center;}
+.nameRegion p:first-child{ font-size: larger; color: black;}
+.nameRegion p:last-child{ background:#f57a16; color: rgb(255, 255, 255); border-radius: 4px; padding: 5px; transition: ease-in 0.5s; font-size: var(--font14);}
+.jobsAroundThailandGrid li a:hover .nameRegion p:last-child{ background: black,#f57a16;}
+img {
+    max-width: 100%;
+    width: auto;
+    outline: none;
+}
+
+
+/* hot career */
+.bgHotCareer{ background: #ebebeb; padding: 15px;}
+.hotCareer{ margin-bottom: 40pt;}
+.hotCareerBottom{ margin-bottom: 20pt;}
+.hotCareerGrid{ display: grid; grid-template-columns: repeat(25, 12.5%); list-style: none; margin: 0; padding: 0; grid-gap: 1px; overflow-x: scroll; padding: 10px 0; margin-bottom: 10pt;}
+.hotCareerGrid li a{ display: flex; align-items: center; justify-content: center; text-decoration: none;}
+.hotCareerGrid li a:hover{ transform: scale(1.03);}
+.hotCareerGrid li img{ margin-bottom: 5pt; width: auto;}
+.hotCareerGrid div{ display: flex; align-items: center; flex-direction: column; justify-content: center;}
+.hotCareerGrid div p{ color: rgb(92, 91, 91); text-align: center;}
+.hotCareerGrid div p.positionWork{ color: #f57a16; font-size: 12pt;}
+.hotCareerCut{ height: 60px;}
+
+.hotCareerGrid::-webkit-scrollbar{ height: 10px; background: #fff; border-radius: 10px;}
+.hotCareerGrid::-webkit-scrollbar-track{ box-shadow: inset 0 0 5px #ebebeb; border-radius: 10px;}
+.hotCareerGrid::-webkit-scrollbar-thumb{ background: #bfbfbf; border-radius: 10px;}
+.hotCareerGrid::-webkit-scrollbar-thumb:hover{ background: #333;}
+
+.controlScroll{ display: flex; justify-content: center;}
+.controlScroll button{ margin: 0 15px;}
+#buttonScrollLeft, #buttonScrollRight{ background: #f57a16; color: white; border: 1px solid rgb(216, 214, 214) #f57a16; border-radius: 4px; padding: 5px 15px;}
+.controlScroll #buttonScrollLeft:hover, .controlScroll #buttonScrollRight:hover{ background: rgb(235, 235, 235) ,#f57a16;}

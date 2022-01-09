@@ -1,0 +1,30 @@
+
+
+.related-posts {
+    padding: 15px;
+    border-radius: 5px;
+}
+.bordered-card {
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    overflow: hidden;
+}
+.related-post-body {
+    margin-bottom: 10px;
+    min-height: 150px !important;
+}
+img{height:auto;max-width:100%;}
+
+/* text */
+.related-post-body h4 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+h4 {
+    clear: both;
+    line-height: 1.5em;
+}
+.related-post-body h4 a {
+    color: #444;
+}

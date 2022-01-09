@@ -1,0 +1,99 @@
+.pic-detail-company img {
+    max-width: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 10px;
+}
+.job-name-company h5 {
+    color: #f57a16;
+    text-decoration: none;
+    display: inline-block;
+}
+h6.tag-tag a {
+    display: inline-block;
+    color: #555;
+}
+.col-md-12 {
+    width: 100%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #555;
+    white-space: initial;
+}
+.text-red {
+    color: #f57a16;
+}
+
+.margin-bottom{margin-bottom: 20px;} 
+.border-bottom-grey-1 {
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-company li.li-contact {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.contact-company li.li-contact a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+}
+.contact-width {
+    width: 100%;
+    display: inline-block;
+}
+.contact-company li.li-contact img, .contact-company li.li-contact a img {
+    max-width: 25px;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    outline: 0;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+.data-adress ul {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+   
+}
+.data-adress ul li {
+    float: left;
+    padding: 0 10px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.contact-company li.li-contact {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.contact-company ul.ul-contact {
+    margin: 0 -10px;
+    padding: 0;
+    overflow: hidden;
+}
