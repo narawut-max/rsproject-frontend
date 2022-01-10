@@ -10,4 +10,4 @@ app.get('*', function(req, res){
     res.sendFile(path.join(__dirname+'/dist/rsprojectfrontend/index.html'))
 })
 
-app.listen(process.env.POST || 8080);
+app.listen(process.env.POST || 9090);
