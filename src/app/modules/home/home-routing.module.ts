@@ -93,6 +93,10 @@ const routes: Routes = [
     path: 'acticledetail3',
     component: Articledetail3Component,
   },
+  {
+    path: 'hr',
+    component: HomeNewComponent,
+  },
 
 ];
 
