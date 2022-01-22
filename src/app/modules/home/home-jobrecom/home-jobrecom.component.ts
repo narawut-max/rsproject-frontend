@@ -31,8 +31,8 @@ export class HomeJobrecomComponent implements OnInit {
   }
 
   refresh() {
-    this.clearPages.emit(this.item);
-    window.location.reload();
+    this.clearPages.emit(window.location.reload());
+
   }
 
   onUplodeFile(e: any) {
