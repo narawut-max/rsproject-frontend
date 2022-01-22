@@ -28,7 +28,7 @@ export class HomeJobrecomComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  refresh() {
+  refresh(text: any) {
     window.location.reload();
   }
 
