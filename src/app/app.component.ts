@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { of } from 'rxjs';
 import { HomeService } from './modules/home/home.service';
 
@@ -9,6 +9,8 @@ import { HomeService } from './modules/home/home.service';
 })
 export class AppComponent {
   title = 'jobthai';
+
+  @Output() resetPages = new EventEmitter<any>();
   public userType: string | undefined;
   public taxInfo: any;
 
@@ -78,6 +80,7 @@ export class AppComponent {
   }
 
   resetPage() {
+    this.resetPages.emit(this.item);
     this.HomePage = false;
     this.closeBefore = true
     localStorage.setItem('HomePage', 'false');
