@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ApplyforworkService } from 'src/app/applyforwork.service';
 
@@ -9,7 +9,8 @@ import { ApplyforworkService } from 'src/app/applyforwork.service';
 })
 export class HomeJobrecomComponent implements OnInit {
 
-  @Output() clearPages = new EventEmitter<any>();
+  @Output() clearPagess = new EventEmitter<any>();
+  @Input() clearPages = new EventEmitter<any>();
 
   LoadingInShow: boolean = false;
   dataFormocr: any;
@@ -31,8 +32,9 @@ export class HomeJobrecomComponent implements OnInit {
   }
 
   refresh() {
-    this.clearPages.emit(window.location.reload());
-
+    this.clearPages.emit(this.item);
+    this.clearPagess.emit(this.item);
+    window.location.reload();
   }
 
   onUplodeFile(e: any) {
