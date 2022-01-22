@@ -9,8 +9,8 @@ import { ApplyforworkService } from 'src/app/applyforwork.service';
 })
 export class HomeJobrecomComponent implements OnInit {
 
-  @Output() clearPagess = new EventEmitter<any>();
-  @Input() clearPages = new EventEmitter<any>();
+  @Output() clearPages = new EventEmitter<any>();
+  // @Input() clearPages = new EventEmitter<any>();
 
   LoadingInShow: boolean = false;
   dataFormocr: any;
@@ -31,9 +31,8 @@ export class HomeJobrecomComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  refresh() {
+  refresh(text: any) {
     this.clearPages.emit(this.item);
-    this.clearPagess.emit(this.item);
     window.location.reload();
   }
 
