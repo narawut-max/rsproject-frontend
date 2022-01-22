@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ApplyforworkService } from 'src/app/applyforwork.service';
 
@@ -8,6 +8,8 @@ import { ApplyforworkService } from 'src/app/applyforwork.service';
   styleUrls: ['./home-jobrecom.component.css']
 })
 export class HomeJobrecomComponent implements OnInit {
+
+  @Output() clearPages = new EventEmitter<any>();
 
   LoadingInShow: boolean = false;
   dataFormocr: any;
@@ -29,6 +31,7 @@ export class HomeJobrecomComponent implements OnInit {
   }
 
   refresh(text: any) {
+    this.clearPages.emit(this.item);
     window.location.reload();
   }
 
